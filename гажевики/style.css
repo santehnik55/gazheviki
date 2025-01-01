@@ -1,0 +1,105 @@
+main{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pashalko{
+    float: right;
+    margin-right: 20px;
+    color: rgba(0, 26, 255, 0.154);
+}
+
+.blockwho{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#spanwho{
+    color: rgb(22, 42, 153);
+    font-size: 20px;
+}
+
+.blockarea{
+    display: flex;
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    background: rgb(240, 244, 255);
+    border-radius: 20px;
+    box-shadow: 0px 3px 0px 1px rgba(0, 0, 0, 0.285);
+}
+
+.blockitem{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    background: rgb(142, 156, 191);
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockitem:hover{
+    background: rgb(200, 204, 227);
+}
+
+.krest{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 14px;
+}
+
+.circle{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.wincolor{
+    color: rgb(255, 255, 255);
+    background: rgb(53, 63, 94);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.blockwin{
+    margin: 20px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+#spanwin{
+    color: rgb(22, 72, 153);
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 10px;
+    padding: 12px;
+    background: rgb(96, 118, 215);
+    border-radius: 10px;
+    color: azure;
+    font-weight: 600;
+}
+
+.button:hover{
+    background: rgb(170, 187, 235);
+}
