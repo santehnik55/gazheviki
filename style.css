@@ -2,6 +2,10 @@ body{
     background: white;
 }
 
+::selection{
+    background: rgb(0, 0, 0, 0);
+}
+
 main{
     display: flex;
     width: 100%;
