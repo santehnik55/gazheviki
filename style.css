@@ -56,11 +56,6 @@ main{
     align-items: center;
     justify-content: center;
 }
-
-.blockitem:hover{
-    background: rgb(200, 204, 227);
-}
-
 .blockitem:focus{
     outline: none;
 }
